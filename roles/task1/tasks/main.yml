@@ -16,7 +16,7 @@
     state: present
     filename: elasticsearch-7.x
   when: ansible_distribution == 'Ubuntu'
-
+  
 - name: Install Elasticsearch
   yum_repository:
     name: elasticsearch-7.x
